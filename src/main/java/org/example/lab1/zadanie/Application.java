@@ -19,8 +19,7 @@ public class Application {
     public static void main(String[] args) {
         KoktajlTruskawkowy koktajlTruskawkowy = new KoktajlTruskawkowy(
                 300,
-                RodzajTruskawki.ANANASOWA,
-                RodzajSmaku.TRUSKAWKOWY
+                RodzajTruskawki.ANANASOWA
         );
         koktajlTruskawkowy.jedz();
         koktajlTruskawkowy.pij();

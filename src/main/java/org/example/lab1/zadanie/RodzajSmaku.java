@@ -7,7 +7,7 @@ public enum RodzajSmaku {
     CIASTECZKOWY(PoziomSlodkosci.BARDZO_SLODKI),
     JABLKOWY(PoziomSlodkosci.SREDNIO_SLODKI);
 
-    final PoziomSlodkosci poziomSlodkosci;
+    private final PoziomSlodkosci poziomSlodkosci;
     RodzajSmaku(final PoziomSlodkosci poziomSlodkosci) {
         this.poziomSlodkosci = poziomSlodkosci;
     }
