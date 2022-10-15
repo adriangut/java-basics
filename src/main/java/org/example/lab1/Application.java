@@ -14,7 +14,7 @@ public class Application {
 //        MySecondClass mySecondClass = new MySecondClass();
 //        mySecondClass.run();
         KoktajlTruskawkowy koktajlTruskawkowy = new KoktajlTruskawkowy();
-        koktajlTruskawkowy.pij();
+        koktajlTruskawkowy.jedz();
         koktajlTruskawkowy.smak();
     }
 }

@@ -5,4 +5,9 @@ public class KoktajlTruskawkowy extends Koktajl implements Smakowalne {
     public void smak() {
         System.out.println("Truskawkowy");
     }
+
+    @Override
+    public void pij() {
+        System.out.println("Pije koktajl");
+    }
 }
