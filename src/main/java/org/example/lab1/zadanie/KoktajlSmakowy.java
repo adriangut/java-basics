@@ -19,7 +19,7 @@ public class KoktajlSmakowy extends Koktajl implements Smakowalne {
         // informacja ta powinna pochodzić z nowej metody zrodloSmaku, która zwraca nowy enum ZrodloSmaku
         // metoda powinna zostać umieszczona w klasie KoktajlSmakowy
         System.out.println(
-                "Pije koktajl o smaku "
+                "Pije koktajl "
                         + smak()
                         + ". Koktajl jest "
                         + zrodloSmakuStatement(smak())
@@ -27,7 +27,7 @@ public class KoktajlSmakowy extends Koktajl implements Smakowalne {
                         + smak().getPoziomSlodkosci()
         );
         String message = String.format(
-                "Pije koktajl o smaku %s. Koktajl jest %s.",
+                "Pije koktajl %s. Koktajl jest %s.",
                 smak(),
                 zrodloSmakuExpression(smak())
         );

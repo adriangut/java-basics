@@ -14,7 +14,7 @@ public class KoktajlTruskawkowy extends KoktajlSmakowy {
     @Override
     public void pij() {
         System.out.println(
-                "Pije koktajl o smaku "
+                "Pije koktajl "
                         + smak()
                         + ", która cechuje się "
                         + rodzajTruskawki.getCecha()
@@ -22,7 +22,7 @@ public class KoktajlTruskawkowy extends KoktajlSmakowy {
                         + smak().getPoziomSlodkosci()
         );
         String message = String.format(
-                "Pije koktajl o smaku %s, która cechuje się %s",
+                "Pije koktajl %s, która cechuje się %s",
                 smak(),
                 rodzajTruskawki.getCecha()
         );
