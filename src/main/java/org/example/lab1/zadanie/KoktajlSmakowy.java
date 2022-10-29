@@ -42,23 +42,18 @@ public class KoktajlSmakowy extends Koktajl implements Smakowalne {
     }
 
     public ZrodloSmaku zrodloSmakuStatement(RodzajSmaku rodzajSmaku) {
-        ZrodloSmaku zrodloSmaku;
         switch (rodzajSmaku) {
             case TRUSKAWKOWY:
             case BANANOWY:
             case JABLKOWY:
-                zrodloSmaku = ZrodloSmaku.OWOCOWY;
-                break;
+                return ZrodloSmaku.OWOCOWY;
             case SZPINAKOWY:
-                zrodloSmaku = ZrodloSmaku.WARZYWNY;
-                break;
+                return ZrodloSmaku.WARZYWNY;
             case CIASTECZKOWY:
-                zrodloSmaku = ZrodloSmaku.INNY;
-                break;
+                return ZrodloSmaku.INNY;
             default:
                 throw new IllegalStateException("Unexpected value: " + rodzajSmaku);
         }
-        return zrodloSmaku;
     }
 
     public ZrodloSmaku zrodloSmakuExpression(RodzajSmaku rodzajSmaku) {
