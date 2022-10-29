@@ -36,6 +36,14 @@ public class SwitchExample {
                 System.out.println(rodzajTruskawki);
                 size = 5;
                 break;
+            case BRAND_NEW:
+                System.out.println(rodzajTruskawki);
+                size = 6;
+                break;
+            case SUPER_NEW:
+                System.out.println(rodzajTruskawki);
+                size = 7;
+                break;
             default:
                 throw new IllegalStateException("Unexpected value: " + rodzajTruskawki);
         }

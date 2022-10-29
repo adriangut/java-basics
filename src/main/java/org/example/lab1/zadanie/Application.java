@@ -9,7 +9,11 @@ public class Application {
         koktajlTruskawkowy.jedz();
         koktajlTruskawkowy.pij();
 
-
+        KoktajlSmakowy koktajlSmakowy = new KoktajlSmakowy(
+                123,
+                RodzajSmaku.SZPINAKOWY
+        );
+        koktajlSmakowy.jedz();
     }
 
     public static int test(int myVar) {
